@@ -1,7 +1,7 @@
 const API_KEY = "AIzaSyCvrrgfsUSzg2sZBeupvKbARwouxDb4ZME";
 const VIDEOS_URL = 'https://www.googleapis.com/youtube/v3/videos'
 const SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search'
-const router = new Navigo('/', false)
+const router = new Navigo('/', { hash: true })
 
 const main = document.querySelector('main')
 
