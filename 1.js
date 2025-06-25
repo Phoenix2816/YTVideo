@@ -459,6 +459,9 @@ const init = () => {
     router
         .on({
             '/YTVideo/': indexRoute,
+            'YTVideo/': indexRoute,
+            'YTVideo': indexRoute,
+            '/': indexRoute,
             '/video/:id': videoRoute,
             '/favorite': favoriteRoute,
             '/search': searchRoute,
