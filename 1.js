@@ -458,7 +458,7 @@ const init = () => {
     console.log('Phoenix2816/YTVideo: ');
     router
         .on({
-            '/YTVideo/': indexRoute,
+            'phoenix2816.github.io/YTVideo/': indexRoute,
             '/video/:id': videoRoute,
             '/favorite': favoriteRoute,
             '/search': searchRoute,
