@@ -458,10 +458,10 @@ const init = () => {
     console.log('Phoenix2816/YTVideo: ');
     router
         .on({
-            'phoenix2816.github.io/YTVideo/': indexRoute,
-            '/video/:id': videoRoute,
-            '/favorite': favoriteRoute,
-            '/search': searchRoute,
+            '/YTVideo/': indexRoute,
+            '/YTVideo/video/:id': videoRoute,
+            '/YTVideo/favorite': favoriteRoute,
+            '/YTVideo/search': searchRoute,
         }).resolve()
     console.log('Phoenix2816/YTVideo: ');
 
